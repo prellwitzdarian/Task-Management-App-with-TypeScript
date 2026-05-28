@@ -1,11 +1,11 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
-import Dashboard from "./pages/Dashboard";
-import TaskDetails from "./pages/TaskDetails";
-import TaskFormPage from "./pages/TaskFormPage";
-import Login from "./pages/Login";
-import Profile from "./pages/Profile";
-import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/Dashboard.tsx";
+import TaskDetails from "./pages/TaskDetails.tsx";
+import TaskFormPage from "./pages/TaskFormPage.tsx";
+import Login from "./pages/Login.tsx";
+import Profile from "./pages/Profile.tsx";
+import NotFound from "./pages/NotFound.tsx";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./App.css";
 
